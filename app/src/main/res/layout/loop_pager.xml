@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <TextView
+        android:id="@+id/categoryTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/category_textview"
+        android:padding="5dp"
+        android:text="push up"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:layout_weight="0"
+        android:id="@+id/setTimesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set times"
+        app:layout_constraintEnd_toStartOf="@+id/timesTextView"
+        />
+
+    <EditText
+        android:layout_weight="6"
+        android:id="@+id/loopTimesEditText"
+        android:layout_width="129dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:hint="Set times"
+        android:inputType="number"
+        />
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/timesTextView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/textview_rounded"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/loopOneTextView"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="00 : 00 : 00"
+        android:textColor="@color/black"
+        android:textSize="80sp"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+    <Button
+        android:id="@+id/loopOneButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set time"
+        app:layout_constraintTop_toBottomOf="@+id/loopTwoTextView" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/loopTwoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="00 : 00 : 00"
+        android:textColor="@color/black"
+        android:textSize="80sp"
+        android:autoSizeTextType="uniform"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+    <Button
+        android:id="@+id/loopTwoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set time"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/loopStartButton"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        />
+    <Button
+        android:id="@+id/loopClearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="clear"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

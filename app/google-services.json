@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "112541773286",
+    "project_id": "mytwittercreate",
+    "storage_bucket": "mytwittercreate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112541773286:android:318fc1e9929c9198923a27",
+        "android_client_info": {
+          "package_name": "com.example.alarmclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112541773286-v23gq0paumu0itutjfslegnnjaukttta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmGqrfj4r0M6a6Zn7aN7f8wvfs8fo-UbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112541773286-v23gq0paumu0itutjfslegnnjaukttta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112541773286:android:25bf3fa980790768923a27",
+        "android_client_info": {
+          "package_name": "com.example.tweet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112541773286-v23gq0paumu0itutjfslegnnjaukttta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmGqrfj4r0M6a6Zn7aN7f8wvfs8fo-UbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112541773286-v23gq0paumu0itutjfslegnnjaukttta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
